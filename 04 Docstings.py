@@ -53,3 +53,7 @@ class Calculator:
             raise ValueError('Input numbers should be greater than zero')
 
         return a + b
+
+
+import doctest
+doctest.testmod()
